@@ -1,0 +1,283 @@
+@font-face{
+           font-family:horizon;
+           src:url("fuentes/horizon.ttf");
+          }
+@font-face{
+           font-family:Ethnocentric rg;
+           src:url("fuentes/ethnocentric rg.otf");
+          }
+/* Index*/
+.padre{
+	   height:100vh;
+	   width:100%;
+	   background-color:black;
+	   display:flex;
+	   flex-direction:column;
+	   align-items: center;
+       justify-content: center;
+      }
+	  
+.hijo{
+	color:white;
+	width:90%;
+	height:auto;
+}
+
+.imagen{
+	       width: 90%;
+           height: auto;
+           display: flex;
+           justify-content: center
+        }
+		
+a:link, a:visited{
+	color:white;
+	text-align:center;
+	text-decoration:none;
+	font-family:horizon;
+       }
+
+a:hover{
+	color:lightblue;
+	text-align:center;
+	text-decoration:none;
+}
+/*todas las paginas*/
+
+body{
+	margin:0;
+}
+
+
+header{
+	   height:auto;
+	   width:100%;
+	   background-color:black;
+	   display:flex;
+      }
+	  
+nav{
+	height:auto;
+	width:80%;
+	display:flex;
+	align-items: center;
+	justify-content: space-evenly;
+   }
+   
+.head-logo{
+	       height:auto;
+	       width:20%;		   
+          }   
+	
+main{
+	 margin:20px;
+    }	
+
+	
+footer{
+	   height:auto;
+	   width:100%;
+	   display:flex;
+      }		  
+	  
+.foot-logo{
+	       height:auto;
+	       width:20%;
+           background-color:black;	
+		   display:flex;
+		   flex-direction: column;
+          }	  
+		  
+.redes{
+	  height:auto;
+	  width:80%;
+      background-color:black;
+	  display:flex;
+	  align-items: center;
+	  justify-content: space-evenly;
+     }	
+
+		  
+p{
+  font-family:Arial, Verdana, sans-serif;	
+  font-size:20px;
+  line-height:35px;	
+  text-align:justify;  
+ }	  
+ 
+h3{
+   font-size:30px;
+  }		
+
+h1{
+	text-align:center;
+	font-family:Ethnocentric rg;
+	font-size:50px;
+	border-bottom-style:solid;
+	margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+h2{
+    text-align:center;
+	font-size:40px;
+  }
+	
+h4{
+	font-size:25px;
+  }	
+		
+footer{
+	   height:auto;
+	   width:100%;
+	   display:flex;
+	   background-color:black;
+      }		  
+	  
+.foot-logo{
+	       height:auto;
+	       width:20%;
+           	
+		   display:flex;
+		   flex-direction: column;
+          }	  
+		  
+.redes{
+	  height:auto;
+	  width:80%;
+      
+	  display:flex;
+	  align-items: center;
+	  justify-content: space-evenly;
+     }	
+
+/*Main*/
+.info-main{
+	 display:flex;
+	 align-items: center;
+    }
+	
+.info-main2{
+	   display:flex;
+	   align-items:center;
+	   flex-direction:row-reverse;
+      }	
+	
+.foto{
+      width:100%;
+	  height:auto;
+	  border-bottom-left-radius:10px;
+	  border-top-left-radius:10px;
+	  border-bottom-right-radius:10px;
+	  border-top-right-radius:10px;
+	  padding-bottom:30px;
+	  margin:30px;
+     }	
+		
+.foto img{
+	       width: 100%;
+	       height:auto;
+	       border-bottom-left-radius:10px;
+	       border-top-left-radius:10px;
+	       border-bottom-right-radius:10px;
+	       border-top-right-radius:10px;
+		   box-shadow:-3px 2px 2px gray;
+          }		
+		
+.info img{
+	       width: 100%;
+	       height:auto;
+	       border-bottom-left-radius:10px;
+	       border-top-left-radius:10px;
+	       border-bottom-right-radius:10px;
+	       border-top-right-radius:10px;
+		   box-shadow:3px 2px 2px gray;
+          }		
+		
+.texto2{
+	   width:100%;
+	   height:auto;
+      }		
+		
+.texto2 p {
+	      line-height:35px;	
+          text-align:justify;		  
+         }		
+		
+ul {
+	line-height:35px;
+    text-align:justify;	
+    font-size:20px;	
+    }		
+
+/*Galeria*/		
+.card{
+      margin:20px;
+      width:300px;
+      height:100%;
+      background:var(--i);
+      background-size:cover;
+      overflow:hidden;	  
+     }
+	 
+.content{
+	     width:100%;
+		 height:100%;
+		 display:flex;
+		 flex-direction:column;
+		 align-items:center;
+		 justify-content:center;
+		 background:rgb(0,0,0, .7);
+		 opacity:0;
+		 transition:.5s;
+        }
+
+.content h4{
+	        color:rgba(255, 255, 255, .8);
+			margin:10px;
+           }
+
+.content p{
+	       color:white;
+		   text-align:center;
+          }
+
+.card:hover .content{
+	                 opacity:1;
+                    }		   
+					
+.foto2{
+	  width:50%;
+	  height:auto;
+	  margin-left:20px;
+	  border-bottom-left-radius:10px;
+	  border-top-left-radius:10px;
+	  border-bottom-right-radius:10px;
+	  border-top-right-radius:10px;
+	  padding-bottom:30px;
+     }
+	 
+.info{
+	   width:100%;
+	   height:auto;
+	   display:flex;
+       align-items:center;
+     }
+	 
+.foto3{
+	  width:100%;
+	  height:auto;
+	  display:flex;
+	  justify-content:center;
+     }
+
+.foto3 img{
+	       width:60%;
+		   height:100%;
+          }
+.texto {
+    width: 50%;
+    height: auto;
+    margin-right:100px;
+}
